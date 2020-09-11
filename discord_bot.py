@@ -209,4 +209,4 @@ async def translate(ctx, lang, *, args):
     a = t.translate(args, dest=lang)
     await ctx.channel.send(a.text)
 
-client.run('NzUxNjA4NzU0OTE4Nzg1MDY3.X1LkMw.Q2xX76D3q1ysgGSHAfajp961Kvk')
+client.run('token')
